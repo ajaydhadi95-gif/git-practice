@@ -1,1 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.5s, color 0.5s; /* Smooth change ke liye */
+}
 
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+/* Dark Mode ki styling */
+.dark-theme {
+    background-color: #121212;
+    color: white;
+    border-color: white;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background: #007bff;
+    color: white;
+}
